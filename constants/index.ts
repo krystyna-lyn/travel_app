@@ -1,10 +1,3 @@
-export const PEOPLE_URL = [
-  '/person-1.png',
-  '/person-2.png',
-  '/person-3.png',
-  '/person-4.png',
-];
-
 
 // NAVIGATION
 export const NAV_LINKS = [
@@ -15,6 +8,22 @@ export const NAV_LINKS = [
   { href: '/', key: 'contact_us', label: 'Contact Us' },
 ];
 
+export const FEATURES = [
+  {
+    title: 'Real maps can be offline',
+    icon: '/map.svg',
+    variant: 'green',
+    description:
+      'We provide a solution for you to be able to use our application when climbing, yes offline maps you can use at any time there is no signal at the location',
+  },
+]
+
+export const PEOPLE_URL = [
+  '/person-1.png',
+  '/person-2.png',
+  '/person-3.png',
+  '/person-4.png',
+];
 
 // FOOTER 
 export const FOOTER_LINKS = [
