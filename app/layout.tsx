@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css'
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import dynamic from 'next/dynamic';
 
 export const metadata: Metadata = {
   title: 'Travel Guide',
